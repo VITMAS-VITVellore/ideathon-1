@@ -1,0 +1,129 @@
+#Home-Page{
+    color:white;
+    background-color:var(--primary);
+    background-image: radial-gradient(circle at 100%,transparent 50%,#F39F86 65%);
+    background-attachment: fixed; 
+}
+
+#main-heading{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:center;
+    margin-bottom: 0;
+    
+}
+
+#Home-Page .datehome{
+    font-size:35px;
+    font-family:'Poppins';
+    margin-bottom: 1rem;
+    margin-left: 7rem;
+}
+
+#Home-Page .desc{
+    font-family:'Poppins';
+    font-weight:100;
+    font-size:15px;
+
+    letter-spacing:0.2rem;
+    text-align: center;
+}
+
+#Home-Page .title{
+    font-family:'Jura';
+    font-size:92px;
+    margin-bottom:0.5rem;
+    color: azure;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    
+}
+
+#Home-Page .main-logo{
+    height:550px;
+    background: transparent;
+}
+
+#timer-section .timer-title{
+    font-family:'Jura';
+    letter-spacing:0.1rem;
+    font-size:48px;
+}
+
+#timer-section .timer{
+    display:flex;
+    font-size:72px;
+    font-family:'Poppins';
+    letter-spacing:0.2rem;
+}
+
+#seconds{
+    color:#ff9f29;
+}
+
+.semicolon{
+    margin-left:2rem;
+    margin-right:2rem;
+}
+
+#date{
+    margin:2rem;
+   
+}
+
+#ps{
+    background-image: linear-gradient(to right, #F39F86, transparent);
+}
+#timeline{
+    background-image: linear-gradient(to right,#F39F86 , transparent);
+}
+#prize{
+    background-image: linear-gradient(to right, #F39F86, transparent);
+}
+#sponsor{
+    background-image: linear-gradient(to right, #F39F86, transparent);
+}
+#faqs{
+    background-image: linear-gradient(to right, #F39F86, transparent);
+    
+}
+#buton{
+    margin-left: 8rem;
+    transition:0.3s;
+    padding:1.2rem;
+    border-radius:2rem;
+    font-family: 'poppins';
+    cursor:pointer;
+    text-align:center;
+    width:40%;
+    color:black;
+    background:white;
+    z-index:9;
+    
+}
+
+#buton:hover{
+    color:white;
+    background-color: #060C24;
+    border:2px solid white;
+}
+
+
+@media screen and (max-width:450px){
+    #main-heading{
+        flex-direction: column !important;
+     
+    }
+    #Home-Page .title{
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+    #Home-Page .datehome{
+        margin:0;
+        font-size: 25px;
+        margin-left: 3rem;
+        margin-bottom: 1rem;
+    }
+    
+}
